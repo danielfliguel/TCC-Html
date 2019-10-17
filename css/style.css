@@ -16,7 +16,8 @@ textarea.form-control {
 	height: 150px;
 }
 .contact-icons{
-	height: 335px;
+	/*height: 335px;*/
+	height: 250px;
 }
 .contact{
 	line-height: 0.5;
@@ -37,6 +38,9 @@ textarea.form-control {
 .jumbotron{
 	height: 100px;
 	background-color: transparent!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #logo{
@@ -109,3 +113,79 @@ html,body{
 
 /*FIM LOGIN*/
 
+/*SOBRE*/
+
+.sobre-texto{
+	color: white;
+	font-size: 18px;
+	text-align: justify;
+}
+.sobre-imgs img{
+	width: 100%;
+	height: 100%;
+}
+
+/*FIM SOBRE*/
+
+/*RODAPÉ*/
+.footer{
+	height: 237px;
+	background-color: #33383C;
+	margin-top: 25px;
+}
+.footer img{
+	width: 50%;
+
+}
+#email-footer{
+	margin-top: 20px; 
+}
+#address-footer{
+	margin-top: 38px;
+}
+#contato-footer{
+	margin-top: 23px;
+}
+.footer p{
+	font-size: 12px;
+}
+.contact-icons-footer{
+	height: 185px;
+	margin-top: 27px;
+	padding: 0;
+}
+.contact-footer{
+	line-height: 0.5;
+	color: white;
+	height: 185px;
+	margin-top: 27px;
+	padding: 0;		
+}
+.pages-footer{
+	height: 185px;
+	margin-top: 15px;
+	padding: 0;
+}
+.footer ul li{
+	margin-top: 15px;
+	list-style-type: none;
+}
+.footer a{
+	color: white;
+}
+.social-networks p{
+	font-size: 13px;
+    text-align: justify;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.social-networks img{
+	width: 120px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: -12px;
+}
+.social-networks{
+	height: 185px;
+}
