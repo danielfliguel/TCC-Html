@@ -189,3 +189,22 @@ html,body{
 .social-networks{
 	height: 185px;
 }
+/*FIM RODAPÉ*/
+
+/*ESPECIALIDADES*/
+.none{
+	display: none;
+}
+.max-height{
+	max-height: 125px;
+}
+.card-text-especialidade{
+	color: white;
+	text-align: justify;
+	font-weight: bold;
+}
+h6{
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
