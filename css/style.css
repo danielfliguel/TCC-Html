@@ -196,15 +196,31 @@ html,body{
 	display: none;
 }
 .max-height{
-	max-height: 125px;
+	max-height: 290px;
 }
 .card-text-especialidade{
 	color: white;
 	text-align: justify;
 	font-weight: bold;
 }
+.card-especialidades img{
+	width: 160px;
+	height: 160px;
+}
 h6{
 	color: white;
 	font-size: 17px;
 	font-weight: bold;
+}
+/*FIM ESPECIALIDADES*/
+
+/*CHATBOT*/
+.chatbot{
+	height: 300px;
+	width: 80%;
+	border: 1px dashed white;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
